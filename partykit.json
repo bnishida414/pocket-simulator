@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "pocket-simulator",
+  "main": "party/server.ts",
+  "compatibilityDate": "2025-02-26",
+  "serve": {
+    "path": "public",
+    "build": "app/client.tsx"
+  }
+}
